@@ -1,0 +1,12 @@
+<h3>Sign in with your Github account</h3>
+User name <input type = "text" [(ngModel)]="username">
+<button (click)="search()">Search</button>
+<div *ngIf="response">
+  <img src="{{response.avatar_url}}" alt="">
+  <h4>Username : {{response.login}}</h4>
+  <h4>Repositories : {{response.public_repos}}</h4>
+  <h4>Bio : {{response.bio}}</h4>
+</div>
+<br>
+<br>
+<h4>Is that you?</h4> <button>Nah</button>

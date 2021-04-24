@@ -1,0 +1,63 @@
+/*body {*/
+/*  font-family: Arial, serif;*/
+/*  color: black;*/
+/*}*/
+
+/*a, h3 {*/
+/*  text-decoration: none;*/
+/*  color: black;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.header {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  padding: 10px;*/
+/*}*/
+
+/*.items {*/
+/*  margin: auto;*/
+/*}*/
+
+/*.container {*/
+/*  position: relative;*/
+/*  text-align: center;*/
+/*  color: white;*/
+/*}*/
+
+/*.main {*/
+/*  position: relative;*/
+/*}*/
+
+/*.main-pic-text {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  color: aliceblue;*/
+/*  font-size: 4ex;*/
+/*}*/
+
+/*.main-side-left {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 10px;*/
+/*  transform: translate(-50%, -50%);*/
+/*  writing-mode: vertical-lr;*/
+/*}*/
+
+/*.main-side-right {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  right: 10px;*/
+/*  transform: translate(-50%, -50%);*/
+/*  writing-mode: vertical-lr;*/
+/*}*/
+
+/*.main-side-bottom {*/
+/*  position: absolute;*/
+/*  bottom: 10px;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*  color: aliceblue;*/
+/*}*/

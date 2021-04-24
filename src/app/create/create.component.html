@@ -1,0 +1,42 @@
+<div>
+  <div class="form-group">
+    <label>Your name</label>
+    <input class="form-control" name="name" [(ngModel)]="name" />
+  </div>
+  <div class="form-group">
+    <label>Your surname</label>
+    <input class="form-control" name="surname" [(ngModel)]="surname" />
+  </div>
+  <div class="form-group">
+    <label>Your age</label>
+    <input type="number" class="form-control" name="age" [(ngModel)]="age" />
+  </div>
+  <div class="form-group">
+    <label>Your phone number</label>
+    <input class="form-control" name="phoneNumber" [(ngModel)]="phoneNumber" />
+  </div>
+  <div class="form-group">
+    <label>Your Github link</label>
+    <input class="form-control" name="githubLink" [(ngModel)]="githubLink" />
+  </div>
+
+  <div class="form-group">
+    <div><img [src]="url" *ngIf="url"></div>
+    <label>Your Graphic Works</label>
+    <input type="file" name="work" accept="image/*" (change)="selectFile($event)"/>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-default" (click)="addPortfolio()" (change)="selectFile($event)">Add portfolio</button>
+  </div>
+
+</div>
+<div><h3>Added portfolios</h3>
+  <ul *ngFor="let p of portfolios">
+    <li>{{p.name}} {{p.surname}} <br>
+      Age : {{p.age}} <br>
+      Phone number : {{p.phoneNumber}} <br>
+      Github link : {{p.githubLink}} <br>
+      Graphic works : {{p.graph}}</li>
+  </ul>
+</div>
+

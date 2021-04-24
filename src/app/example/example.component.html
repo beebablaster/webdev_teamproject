@@ -1,0 +1,24 @@
+<p>Examples of portfolio you can make</p>
+
+<div *ngFor="let example of examples">
+  <h4><strong *ngIf="example.username" style="padding: 10px">
+    {{ example.username }}
+  </strong></h4>
+
+  <p *ngIf="example.img1">
+    <img src="{{ example.img1 }}" style="amax-width: 70%">
+  </p>
+  <p *ngIf="example.description1">
+    <strong>Description:</strong> {{ example.description1 }}
+  </p>
+
+  <p *ngIf="example.img2">
+    <img src="{{ example.img2 }}" style="max-width: 70%">
+  </p>
+  <p *ngIf="example.description2">
+    <strong>Description:</strong> {{ example.description2 }}
+  </p>
+</div>
+
+<hr>
+<footer></footer>
